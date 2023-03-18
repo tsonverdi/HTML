@@ -8,18 +8,71 @@
   </head>
   <body>
     <form method="post" action="/account/login">
-      <label for=""></label>
+      <label for="">Isim</label>
       <input type="text" name="firstName" /><br />
+      <label for="">Maas</label>
       <input type="number" name="salary" /><br />
+      <label for="">Email</label>
       <input type="email" name="email" /><br />
+      <label for="">Password</label>
       <input type="password" name="pass" /><br />
+      <label for="">Search</label>
       <input type="search" name="search" /><br />
+      <label for="">Url</label>
       <input type="url" name="website" /><br />
+      <label for="">Tel</label>
       <input type="tel" name="phone" /><br />
       <input type="hidden" name="code" /><br />
-      <input type="button" value="Custom" />
+
+      <input type="checkbox" name="user" id="usr" />
+      <label for="usr">Kullanici sozlesmesini okudum</label> <br />
+
+      <input type="checkbox" name="sat" id="satis" />
+      <label for="satis">Satis sozlesmesini okudum</label> <br /><br />
+
+      <input type="radio" name="gender" id="" checked />
+      <label for="">Erkek</label>
+
+      <input type="radio" name="gender" id="" />
+      <label for="">Kadin</label><br /><br />
+
+      <input type="file" name="avatar" id="" /><br /><br />
+
+      <input type="color" name="renk" /><br /><br />
+
+      <input type="range" name="salary" id="" max="10" min="1" /><br /><br />
+
+      <input type="date" name="tarih" id="" /><br /><br />
+
+      <input type="time" name="departureTime" /><br /><br />
+
+      <input type="datetime-local" name="tarihsaat" /><br /><br />
+
+      <input type="month" name="ay" /> <br /><br />
+
+      <input type="week" name="hafta" /><br /><br />
+
+      <select name="city">
+        <option value="" selected disabled>Seciniz</option>
+        <option value="34">Istanbul</option>
+        <option value="35">Izmir</option>
+        <option value="06">Ankara</option></select
+      ><br /><br />
+
+      <select name="country" size="5" >
+        <!-- <option value="" selected disabled>Seciniz</option> -->
+        <option value="34">Turkey</option>
+        <option value="35">Germany</option>
+        <option value="06">France</option>
+        <option value="06">UK</option>
+        <option value="06">US</option>
+        </select><br /><br />
+
+        <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+      <input type="button" value="Geri Don" />
       <input type="submit" value="Save" />
-      <input type="reset" value="Reset" />
+      <input type="reset" value="Reset" /><br />
     </form>
   </body>
 </html>

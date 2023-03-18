@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="eposta">Eposta</label></td>
+          <td><input required type="email" name="eposta" id="eposta" placeholder="info@gmail.com"/></td>
+        </tr>
+        <tr>
+          <td><label for="sifre">Sifre</label></td>
+          <td><input minlength="3" type="password" name="sifre" id="sifre"/></td>
+        </tr>
+        <tr>
+          <td><label for="kod1">Guvenlik kodu</label></td>
+          <td><input min="45" max="100" type="number" name="kod" id="kod1" value="12321" readonly/></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Kaydet</button>
+            <button type="reset">Temizle</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
